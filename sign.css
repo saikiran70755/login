@@ -1,0 +1,38 @@
+
+.container{
+    display: flex;
+    height: 700px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 15px 15px 20px black;
+
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+   
+  }
+  .box{
+  padding: 12px;
+  margin: 9px;
+  border-radius: 50px;
+   
+
+  } 
+  .submit{
+    padding: 12px;
+    width: 65;
+    margin: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 30px;
+  }
+ 
+  #Submit:hover{
+    cursor: pointer;
+    background-color: rgb(29, 7, 7);
+  }
+  
